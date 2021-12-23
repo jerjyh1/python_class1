@@ -1,6 +1,6 @@
 import time
 from gtts import gTTS
-tts=gTTS(text="祝你生日快樂!",lang='zh-tw')
+tts=gTTS(text="祝大家生日快樂!",lang='zh-tw')
 tts.save('生日快樂.mp3')
 
 from pygame import mixer
